@@ -1,3 +1,4 @@
+-- Adjust columns as needed below before running migrate file
 CREATE TABLE IF NOT EXISTS users(
 	id SERIAL PRIMARY KEY,
 	username VARCHAR UNIQUE NOT NULL,
