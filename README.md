@@ -3,7 +3,7 @@ Skeleton Express app with needed files/code for proper authentication
 
 
 Things to Remember:
-1.  Create a .gitignore and .env file, populate .env file with SECRET_KEY value.
+1.  Create a .gitignore and .env file, populate .env file with SECRET_KEY value. <br />
 Example:  SECRET_KEY=wqioej019fn
 
 2.  You can adjust where app routes after successful or failed login attempt in auth-routes
