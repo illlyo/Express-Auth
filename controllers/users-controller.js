@@ -3,7 +3,6 @@ const User = require('../models/user.js')
 
 const usersController = {}
 
-//render login partial
 usersController.index = (req, res) => {
 	res.render('login', {
 		auth: (req.user) ? true : false,
@@ -12,7 +11,6 @@ usersController.index = (req, res) => {
 	console.log(user)
 }
 
-//render register partial
 usersController.create = (req, res) => {
 	const salt = bcrypt.genSaltSync()
 	const hash = bcrypt.hashSync(req.body.password, salt)

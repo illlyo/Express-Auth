@@ -10,7 +10,7 @@ authRouter.get('/login', authHelpers.loginRedirect, (req, res, next) => {
 	})
 })
 
-
+//alter redirects as desired
 authRouter.post('/login', passport.authenticate('local', {
 	successRedirect: '/',
 	failureRedirect: '/auth/login',
