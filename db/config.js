@@ -6,11 +6,11 @@ const options = {
 
 const pgp = require('pg-promise')(options)
 
-//remember to update the database name to the proper value on line 13
+//remember to update line 13 to reflect your actual database name!!!
 function setDatabase() {
 	if(process.env.NODE_ENV === 'development' || !process.env.NODE_ENV) {
 		return pgp({
-			database: 'INSERT_DB_NAME_HERE',
+			database: 'expressauth',
 			port: 5432,
 			host: 'localhost',
 		})
