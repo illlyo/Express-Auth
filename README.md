@@ -2,8 +2,8 @@
 Skeleton Express app with needed files/code for proper authentication
 
 
-Things to Remember:
-1.  Run yarn install in Command prompt to install dependencies.
+Things to Remember After Cloning:
+1.  CD into root dir and run yarn install in Command prompt to install dependencies.
 
 2.  Create a .gitignore and .env file, populate .env file with SECRET_KEY value. <br />
 Example:  SECRET_KEY=wqioej019fn
