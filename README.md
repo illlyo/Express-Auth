@@ -8,6 +8,8 @@ Things to Remember:
 2.  Create a .gitignore and .env file, populate .env file with SECRET_KEY value. <br />
 Example:  SECRET_KEY=wqioej019fn
 
+2a. If you're unfamiliar with .gitignore, simply type .env in the file
+
 3.  You can adjust where app routes after successful or failed login attempt in auth-routes
 
 4.  You can adjust columns in the user table within migration file.
